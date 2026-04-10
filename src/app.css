@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Audiowide&family=Share+Tech&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    margin: auto;
+    width: max-content;
+    max-width: 2500px;
+}

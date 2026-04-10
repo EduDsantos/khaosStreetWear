@@ -3,7 +3,7 @@ import './header.css'
 function Header() {
     return (
         <>
-            <title>KHAOS</title>
+            <title className='tituloNavegador'>Khaos Street Wear</title>
             
 
             <div className="navBarHeader">
