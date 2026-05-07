@@ -1,23 +1,23 @@
+import React from 'react'
+import Cart from '../Cart/Cart'
 import './header.css'
+import NavBar from '../NavBar/NavBar'
+
 
 function Header() {
     return (
         <>
             <title className='tituloNavegador'>Khaos Street Wear</title>
-            
 
             <div className="navBarHeader">
                 <div className="logo">
                     <img src="../images/logo.png" alt="Logo" />
                 </div>
-                <ul className="links">
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
+
+                <Cart />
+
             </div>
+                <NavBar />
 
             <div className="header">
                 <img src="#" alt="" />
