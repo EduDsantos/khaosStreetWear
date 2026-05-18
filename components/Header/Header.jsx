@@ -14,10 +14,10 @@ function Header() {
                     <img src="../images/logo.png" alt="Logo" />
                 </div>
 
-                <Cart />
 
-            </div>
                 <NavBar />
+                <Cart />
+            </div>
 
             <div className="header">
                 <img src="#" alt="" />

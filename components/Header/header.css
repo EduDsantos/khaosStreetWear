@@ -6,15 +6,24 @@
     border-radius: 10px;
     padding: 20px;
     height: 500px;
+    margin-top: 124px;
     
 }
 
 .navBarHeader {
-    background-color: rgb(255, 255, 255);
-    top: 0%;
-    position: sticky;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 12px 24px;
+    position: fixed;      
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff; 
+    border-bottom: 1px solid #eee;
+    box-shadow: 1px 1px solid black;
+    
 }
 
 
